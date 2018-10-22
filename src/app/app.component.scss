@@ -1,0 +1,29 @@
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: 15px;
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.form{
+    padding: 20px;
+}
+div {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+section{
+    padding: 1px;
+}
+label{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
